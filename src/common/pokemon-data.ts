@@ -3957,6 +3957,14 @@ export const POKEMON_DATA: { [key: string]: PokemonConfig } = {
     possibleColors: [PokemonColor.default],
     originalSpriteSize: 64,
   },
+  whimsicott: {
+    id: 547,
+    name: 'Whimsicott',
+    generation: PokemonGeneration.Gen5,
+    cry: 'Whimsicott!',
+    possibleColors: [PokemonColor.default],
+    originalSpriteSize: 32,
+  },
 };
 
 export function getAllPokemon(): PokemonType[] {
