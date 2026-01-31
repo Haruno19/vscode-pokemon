@@ -3965,6 +3965,22 @@ export const POKEMON_DATA: { [key: string]: PokemonConfig } = {
     possibleColors: [PokemonColor.default],
     originalSpriteSize: 32,
   },
+  zorua: {
+    id: 570,
+    name: 'Zorua',
+    generation: PokemonGeneration.Gen5,
+    cry: 'Zorua!',
+    possibleColors: [PokemonColor.default],
+    originalSpriteSize: 32,
+  },
+  lampent: {
+    id: 608,
+    name: 'Lampent',
+    generation: PokemonGeneration.Gen5,
+    cry: 'Lampent!',
+    possibleColors: [PokemonColor.default],
+    originalSpriteSize: 32,
+  },
 };
 
 export function getAllPokemon(): PokemonType[] {
